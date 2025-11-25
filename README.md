@@ -1,6 +1,6 @@
 # DynaMimicGen (D-MG): A Data Generation Framework for Robot Learning of Dynamic Manipulation Tasks
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://github.com/automation-robotics-machines/DynaMimicGen">
     <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" height="32">
   </a>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src="DMG_framework.png" width="600" alt="D-MG Framework">
-</p> -->
+</p> 
 
 ## Overview  
 Learning robust robot manipulation policies typically requires large and diverse datasets — yet collecting such datasets is expensive, time-consuming, and especially challenging in **dynamic environments**, where object poses, obstacles, and scene configurations may change unpredictably.
