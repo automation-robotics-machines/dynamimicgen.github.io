@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="DMG_framework.png" width="600" alt="D-MG Framework">
+  <img src="DMG_framework.png" width="1000" alt="D-MG Framework">
 </p> 
 
 ## Overview  
