@@ -34,19 +34,19 @@ Overall, D-MG reduces human supervision requirements and paves the way toward **
 ---
 
 ## Authors  
-- **Vincenzo Pomponi** – SUPSI, vincenzo.pomponi@supsi.ch  
-- **Paolo Franceschi** – SUPSI, paolo.franceschu@supsi.ch  
-- **Stefano Baraldo** – SUPSI, stefano.baraldo@supsi.ch  
-- **Loris Roveda** – SUPSI, loris.roveda@supsi.ch · PoliMi, loris.roveda@mail.polimi.it  
-- **Oliver Avram** – SUPSI, oliver.avram@supsi.ch  
-- **Luca Maria Gambardella** – USI, luca.gambardella@usi.ch  
-- **Anna Valente** – SUPSI, anna.valente@supsi.ch  
+- [**Vincenzo Pomponi**](https://scholar.google.com/citations?user=ACuxQloAAAAJ&hl=it)  
+- [**Paolo Franceschi**](https://scholar.google.com/citations?user=Trwj5FIAAAAJ&hl=it)
+- [**Stefano Baraldo**](https://scholar.google.com/citations?hl=it&user=fnI9W58AAAAJ&view_op=list_works&sortby=pubdate)
+- [**Loris Roveda**](https://scholar.google.com/citations?user=3un_pPgAAAAJ&hl=en)
+- **Oliver Avram**
+- [**Luca Maria Gambardella**](https://scholar.google.ch/citations?hl=en&user=SCCwW3YAAAAJ&view_op=list_works)
+- [**Anna Valente**](https://scholar.google.com/citations?user=pO9TbIMAAAAJ&hl=en)
 
 ---
 
 ## Publication & Code  
-- 📄 **Paper (arXiv):** https://arxiv.org/abs/2511.16223  
-- 💻 **Code Repository:** https://github.com/automation-robotics-machines/DynaMimicGen  
+- 📄 [**arXiv**](https://arxiv.org/abs/2511.16223 )  
+- 💻 [**GitHub**](https://github.com/automation-robotics-machines/DynaMimicGen)
 
 ---
 
