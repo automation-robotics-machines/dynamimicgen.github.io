@@ -1,5 +1,3 @@
-# DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks
-
 <p align="center">
   <a href="https://github.com/automation-robotics-machines/DynaMimicGen">
     <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" height="32">
