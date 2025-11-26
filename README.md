@@ -79,27 +79,14 @@ More tasks will be added soon.
 
 ---
 
-## BibTeX  
+## Citation
+If you use **DynaMimicGen (D-MG)** or this code, please cite the paper:
+
 ```bibtex
 @article{pomponi2025dynamimicgen,
   title={DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks},
   author={Pomponi, Vincenzo and Franceschi, Paolo and Baraldo, Stefano and Roveda, Loris and Avram, Oliver and Gambardella, Luca Maria and Valente, Anna},
   journal={arXiv preprint arXiv:2511.16223},
   year={2025}
-}
-```
-
-## Citation
-If you use **MultiPhysio‑HRC** or this code, please cite the paper:
-
-```bibtex
-@misc{bussolan2025multiphysiohrcmultimodalphysiologicalsignals,
-      title={MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration}, 
-      author={Andrea Bussolan and Stefano Baraldo and Oliver Avram and Pablo Urcola and Luis Montesano and Luca Maria Gambardella and Anna Valente},
-      year={2025},
-      eprint={2510.00703},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2510.00703}, 
 }
 ```
