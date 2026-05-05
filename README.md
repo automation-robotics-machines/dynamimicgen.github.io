@@ -86,13 +86,20 @@ This enables imitation-learning agents to train on highly diverse synthetic demo
 ---
 
 ## Authors  
-- [**Vincenzo Pomponi**](https://scholar.google.com/citations?user=ACuxQloAAAAJ&hl=it)  
-- [**Paolo Franceschi**](https://scholar.google.com/citations?user=Trwj5FIAAAAJ&hl=it)
-- [**Stefano Baraldo**](https://scholar.google.com/citations?hl=it&user=fnI9W58AAAAJ&view_op=list_works&sortby=pubdate)
-- [**Loris Roveda**](https://scholar.google.com/citations?user=3un_pPgAAAAJ&hl=en)
-- **Oliver Avram**
-- [**Luca Maria Gambardella**](https://scholar.google.ch/citations?hl=en&user=SCCwW3YAAAAJ&view_op=list_works)
-- [**Anna Valente**](https://scholar.google.com/citations?user=pO9TbIMAAAAJ&hl=en)
+<table>
+  <tr>
+    <td><a href="https://scholar.google.com/citations?user=ACuxQloAAAAJ&hl=it">Vincenzo Pomponi</a></td>
+    <td><a href="https://scholar.google.com/citations?user=Trwj5FIAAAAJ&hl=it">Paolo Franceschi</a></td>
+    <td><a href="https://scholar.google.com/citations?hl=it&user=fnI9W58AAAAJ">Stefano Baraldo</a></td>
+    <td><a href="https://scholar.google.com/citations?user=3un_pPgAAAAJ&hl=en">Loris Roveda</a></td>
+  </tr>
+  <tr>
+    <td>Oliver Avram</td>
+    <td><a href="https://scholar.google.ch/citations?hl=en&user=SCCwW3YAAAAJ">Luca Maria Gambardella</a></td>
+    <td><a href="https://scholar.google.com/citations?user=pO9TbIMAAAAJ&hl=en">Anna Valente</a></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
 
