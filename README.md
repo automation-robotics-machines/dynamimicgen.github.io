@@ -102,21 +102,6 @@ This enables imitation-learning agents to train on highly diverse synthetic demo
 
 ---
 
-## Publication & Code  
-- 📄 [**arXiv**](https://arxiv.org/abs/2511.16223 )  
-- 💻 [**GitHub**](https://github.com/automation-robotics-machines/DynaMimicGen)
-
----
-
-## Highlights  
-- ✅ **Generates large-scale datasets from minimal human demonstrations**  
-- ✅ **Explicitly designed for dynamic and unpredictable task settings**  
-- ✅ **Generalizes to new scene layouts, objects, and robot configurations**  
-- ✅ **Produces smooth, realistic, and DMP-driven Cartesian trajectories**  
-- ✅ **Enables strong imitation-learning performance on long-horizon tasks**  
-
----
-
 ## Supported Tasks & Benchmarks  
 More tasks will be added soon.
 
