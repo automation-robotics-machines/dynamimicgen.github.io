@@ -1,4 +1,4 @@
-# DynaMimicGen: Data Generation for Robot Learning, Imitation Learning, and Dynamic Manipulation
+# DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks
 
 > Project website of the paper **"DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks"**.
 >
