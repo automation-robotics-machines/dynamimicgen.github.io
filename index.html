@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DynaMimicGen</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-slider@2.0.5/dist/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/js/bulma-carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bulma-slider@2.0.5/dist/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a target="_blank" href="https://scholar.google.com/citations?user=ACuxQloAAAAJ&hl=it">Vincenzo Pomponi</a>,&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=Trwj5FIAAAAJ&hl=it">Paolo Franceschi</a>,&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?hl=it&user=fnI9W58AAAAJ&view_op=list_works&sortby=pubdate">Stefano Baraldo</a>,&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=3un_pPgAAAAJ&hl=en">Loris Roveda</a>,&nbsp;
+                Oliver Avram,&nbsp;
+                <a target="_blank" href="https://scholar.google.ch/citations?hl=en&user=SCCwW3YAAAAJ&view_op=list_works">Luca Maria Gambardella</a>,&nbsp;
+                <a target="_blank" href="https://scholar.google.com/citations?user=pO9TbIMAAAAJ&hl=en">Anna Valente</a>
+              </span>
+              <br>
+              <span class="publication-venue">IEEE Robotics and Automation Letters (RA-L), 2026</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://ieeexplore.ieee.org/document/11568504" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a target="_blank" href="https://arxiv.org/abs/2511.16223" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a target="_blank" href="https://github.com/automation-robotics-machines/DynaMimicGen" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="#BibTeX" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-quote-right"></i></span>
+                    <span>Cite</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div class="columns is-centered">
+          <div class="column is-centered has-text-centered">
+            <div class="video-container">
+              <img src="MugDynamic.gif" alt="Dynamic Mug Manipulation">
+              <p>Dynamic Mug Manipulation</p>
+            </div>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <div class="video-container">
+              <img src="SquareDynamic.gif" alt="Dynamic Square Task">
+              <p>Dynamic Square Task</p>
+            </div>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <div class="video-container">
+              <img src="StackDynamic.gif" alt="Dynamic Stacking Task">
+              <p>Dynamic Stacking Task</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          DynaMimicGen generates large-scale robotic manipulation datasets for <strong>dynamic</strong> tasks from only a few human demonstrations.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              DynaMimicGen is an open-source framework for generating large-scale robotic manipulation datasets from
+              only a few human demonstrations. The framework combines <strong>Dynamic Movement Primitives (DMPs)</strong>,
+              <strong>trajectory adaptation</strong>, and <strong>imitation learning</strong> to create diverse synthetic
+              demonstrations for robot learning in dynamic environments.
+            </p>
+            <p>
+              Learning robust robot manipulation policies requires large, diverse, and task-consistent datasets. However,
+              collecting demonstrations through teleoperation or kinesthetic teaching is expensive, time-consuming, and
+              difficult to scale, particularly for dynamic environments where object poses continuously vary, obstacles
+              appear or move, robot initial conditions change, and execution-time perturbations occur frequently.
+            </p>
+            <p>
+              Starting from sparse demonstrations, DynaMimicGen automatically segments manipulation trajectories into
+              reusable subtasks, adapts subtasks using Dynamic Movement Primitives, regenerates smooth Cartesian
+              trajectories for unseen environments, and produces large-scale synthetic datasets for robot learning.
+              Unlike existing mimic-generation approaches primarily designed for static scenes, DynaMimicGen explicitly
+              targets dynamic manipulation scenarios involving changing object configurations, moving obstacles,
+              varying robot states, and execution-time perturbations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-centered">Framework Overview</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths has-text-centered">
+          <img src="DMG_framework.png" alt="DynaMimicGen Framework" style="border-radius:10px; max-width:100%;">
+          <p class="content" style="margin-top: 1rem;">
+            <em>Overview of the DynaMimicGen framework for robotic demonstration generation and trajectory
+            adaptation using Dynamic Movement Primitives.</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-centered">Key Contributions</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <ul>
+              <li>Generates large-scale robotic manipulation datasets from only a few demonstrations</li>
+              <li>Explicitly designed for dynamic and unpredictable environments</li>
+              <li>Dynamic Movement Primitive (DMP) based trajectory adaptation</li>
+              <li>Smooth, realistic, and task-consistent Cartesian motion generation</li>
+              <li>Generalizes across objects, scene layouts, and robot initializations</li>
+              <li>Enables strong imitation learning performance on long-horizon manipulation tasks</li>
+              <li>Reduces expensive human demonstration collection</li>
+              <li>Compatible with Behavior Cloning and Diffusion Policy training pipelines</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-centered">Experimental Results</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths has-text-centered">
+          <img src="DMG_results.png" alt="DynaMimicGen Results" style="border-radius:10px; max-width:100%;">
+          <p class="content" style="margin-top: 1rem;">
+            <em>Quantitative evaluation of DynaMimicGen-generated datasets across dynamic robotic manipulation benchmarks.</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@ARTICLE{11568504,
+  author={Pomponi, Vincenzo and Franceschi, Paolo and Baraldo, Stefano and Avram, Oliver and Roveda, Loris and Gambardella, Luca Maria and Valente, Anna},
+  journal={IEEE Robotics and Automation Letters},
+  title={DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Magnesium;Robots;Trajectory;Data collection;Training;Learning (artificial intelligence);End effectors;Cloning;Stacking;Imitation learning;Imitation Learning;Learning from Demonstration;Deep Learning in Grasping and Manipulation},
+  doi={10.1109/LRA.2026.3703978}}</code></pre>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Acknowledgments &amp; Funding</h2>
+      <div class="is-vcentered interpolation-panel">
+        <div class="container content has-text-left">
+          <p>
+            This work was supported by the <strong>Horizon Europe — FLUENTLY</strong> project (Grant No. 101058680).
+            We thank all collaborators, participants, and technical staff who supported the data acquisition and
+            experimental campaigns.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop content has-text-centered">
+      <h2 class="title">Contact</h2>
+      <p>
+        Lead Contact: <a href="mailto:vincenzo.pomponi@supsi.ch">vincenzo.pomponi@supsi.ch</a><br>
+        Questions and bug reports: open a <a href="https://github.com/automation-robotics-machines/DynaMimicGen/issues" target="_blank">GitHub Issue</a><br>
+        Organization Website: <a href="https://automation-robotics-machines.github.io/" target="_blank">automation-robotics-machines.github.io</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          Page template adapted from <a href="https://nerfies.github.io"><span class="dnerf">Nerfies</span></a>,
+          in the style of <a href="https://mimicgen.github.io" target="_blank">MimicGen</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
