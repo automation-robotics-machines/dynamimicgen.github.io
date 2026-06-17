@@ -6,13 +6,13 @@ title: DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic T
 .sidebar { display: none !important; }
 
 .wrapper {
-    max-width: 1400px !important;
+    max-width: 2000px !important;
     width: 95% !important;
     margin: 0 auto !important;
 }
 
 .container {
-    max-width: 1400px !important;
+    max-width: 2000px !important;
     width: 95% !important;
     margin: 2rem auto !important;
 }
