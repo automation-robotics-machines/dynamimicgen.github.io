@@ -1,5 +1,3 @@
-# DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks
-
 > Project website of the paper **"DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks"**.
 >
 > DynaMimicGen is an open-source framework for generating large-scale robotic manipulation datasets from only a few human demonstrations. The framework combines **Dynamic Movement Primitives (DMPs)**, **trajectory adaptation**, and **imitation learning** to create diverse synthetic demonstrations for robot learning in dynamic environments.
@@ -14,13 +12,9 @@
 </p>
 
 <p align="center">
-  <img src="DMG_framework.png" width="1000" alt="DynaMimicGen Framework">
-</p>
-
-<p align="center">
-  <em>
-  Figure 1. Overview of the DynaMimicGen framework for robotic demonstration generation and trajectory adaptation using Dynamic Movement Primitives.
-  </em>
+  <img src="MugDynamic.gif" width="300" alt="Dynamic Mug Manipulation">
+  <img src="SquareDynamic.gif" width="300" alt="Dynamic Square Task">
+  <img src="StackDynamic.gif" width="300" alt="Dynamic Stacking Task">
 </p>
 
 ---
@@ -40,6 +34,16 @@ Robot Learning • Imitation Learning • Learning from Demonstration • Diffus
 ---
 
 ## 📖 Overview
+
+<p align="center">
+  <img src="DMG_framework.png" width="1000" alt="DynaMimicGen Framework">
+</p>
+
+<p align="center">
+  <em>
+  Figure 1. Overview of the DynaMimicGen framework for robotic demonstration generation and trajectory adaptation using Dynamic Movement Primitives.
+  </em>
+</p>
 
 Learning robust robot manipulation policies requires large, diverse, and task-consistent datasets.
 
@@ -87,12 +91,6 @@ This enables imitation-learning policies to train on diverse synthetic demonstra
 ## 🧪 Supported Tasks & Benchmarks
 
 Additional tasks and benchmarks will be released in future updates.
-
-<p align="center">
-  <img src="MugDynamic.gif" width="300" alt="Dynamic Mug Manipulation">
-  <img src="SquareDynamic.gif" width="300" alt="Dynamic Square Task">
-  <img src="StackDynamic.gif" width="300" alt="Dynamic Stacking Task">
-</p>
 
 ---
 
